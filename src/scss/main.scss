@@ -1,0 +1,8 @@
+@import "partials/params";
+@import "partials/mixins";
+
+$color: red;
+
+h1 {
+  color: $color;
+}
