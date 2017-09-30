@@ -1,6 +1,7 @@
 @import "partials/params";
 @import "partials/mixins";
 
+
 $font-color: #fff;
 
 .nav {
@@ -14,11 +15,12 @@ $font-color: #fff;
     padding: 0 30px;
     width: 100%;
     color: $font-color;
-
     background-color: transparent;
 
     &__brand {
-
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 20px;
     }
 
     &__menu {
@@ -30,7 +32,7 @@ $font-color: #fff;
     &__item {
     position: relative ;
     margin: 22px 15px 5px;
-    font-style: 12px;
+    font-size: 12px;
     &:hover {
         .nav__menu-border {
             opacity: 1;
