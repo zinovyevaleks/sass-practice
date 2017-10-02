@@ -12,13 +12,11 @@ $font-color: #fff;
     justify-content: space-between;
     align-items: center;
     flex: 0 0 $nav-height;
-    padding: 0 30px;
-    width: 100%;
     color: $font-color;
     background-color: transparent;
 
     &__brand {
-        margin-left: 20px;
+        margin-left: 40px;
         font-weight: bold;
         font-size: 20px;
     }
